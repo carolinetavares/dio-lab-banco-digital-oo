@@ -78,12 +78,12 @@ Interface que define os métodos para operações básicas de uma conta bancári
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/simulador-banco.git
+   git clone https://github.com/seu-usuario/dio-lab-banco-digital-oo.git
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd simulador-banco
+   cd dio-lab-banco-digital-oo
 
 3. Importe o projeto em sua IDE de preferência.
 
