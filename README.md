@@ -1,13 +1,25 @@
-# Simulador de Operações Bancárias
+# Banco Digital
 
-Este projeto é uma simulação de operações bancárias básicas, implementada em Java. Ele permite a criação de contas correntes e poupança, realização de depósitos, saques, transferências e aplicação de juros em contas poupança. Além disso, o projeto gera relatórios de transações para os clientes.
+Este projeto é uma simulação de operações bancárias básicas, implementada em Java. Ele faz parte do exercício prático do curso 
+"Criando um Banco Digital com Java e Orientação a Objetos" oferecido pela plataforma DIO. O objetivo do projeto é reforçar o conhecimento em 
+Programação Orientada a Objetos (POO) e permitir a criação de um banco digital com funcionalidades básicas.
 
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
 
-- **model**: Contém todas as classes do modelo, como `Banco`, `Cliente`, `Conta`, `ContaCorrente`, `ContaPoupanca`, `Transacao` e a interface `IConta`.
-- **Main.java**: Contém o método principal (`main`) que demonstra a funcionalidade do simulador.
+- **model**: Contém classes de modelo e entidades principais.
+   - `Banco.java`
+   - `Cliente.java`
+   - `Transacao.java`
+- **model.conta**: Contém classes relacionadas a contas bancárias.
+   - `Conta.java`
+   - `ContaCorrente.java`
+   - `ContaPoupanca.java`
+- **interface**: Contém interfaces.
+   - `IConta.java`
+- **main**: Contém a classe principal.
+   - `Main.java`
 
 ## Classes e Funcionalidades
 
@@ -53,6 +65,9 @@ Classe que representa uma transação bancária.
 - `getData()`, `getTipo()`, `getValor()`: Getters para data, tipo e valor da transação.
 - `toString()`: Retorna uma string com os detalhes da transação.
 
+### IConta
+Interface que define os métodos para operações básicas de uma conta bancária.
+
 ## Requisitos
 
 - Java 8 ou superior
@@ -65,12 +80,11 @@ Classe que representa uma transação bancária.
    ```bash
    git clone https://github.com/seu-usuario/simulador-banco.git
 
-    Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
 
-    bash
+   ```bash
+   cd simulador-banco
 
-    cd simulador-banco
+3. Importe o projeto em sua IDE de preferência.
 
-    Importe o projeto em sua IDE de preferência.
-
-    Compile e execute a classe Main para ver a simulação em ação.
+4. Compile e execute a classe Main para ver a simulação em ação.
