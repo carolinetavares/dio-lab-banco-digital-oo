@@ -1,0 +1,58 @@
+# Diretórios de build e outros arquivos gerados
+target/
+bin/
+out/
+
+# Diretórios e arquivos temporários do IDE
+*.iml
+.idea/
+*.class
+*.log
+
+# Configurações do Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Arquivos de configuração de Eclipse
+.settings/
+.project
+.classpath
+
+# Arquivos de configuração do NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+*.nb-gradle/
+
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de configuração do Gradle
+.gradle/
+build/
+
+# Arquivos de configuração do JBoss
+jboss/
+*.dtd
+
+# Arquivos de configuração do Spring Boot
+spring-boot-starter-parent/
+
+# Arquivos de configuração específicos
+*.swp
+*.swo
+*.swn
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Docker
+.dockerignore
