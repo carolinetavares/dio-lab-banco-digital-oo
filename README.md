@@ -79,11 +79,13 @@ Interface que define os métodos para operações básicas de uma conta bancári
 
    ```bash
    git clone https://github.com/seu-usuario/dio-lab-banco-digital-oo.git
+   ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
    cd dio-lab-banco-digital-oo
+   ```
 
 3. Importe o projeto em sua IDE de preferência.
 
